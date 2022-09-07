@@ -207,14 +207,15 @@ li {
 }
 .checkbox {
   outline: 1px solid #000;
-  border: 1px solid #000;
+  border: 2px solid #fff;
   width: 20px;
   height: 20px;
   display: table;
   margin: 0 auto;
 }
 .checkbox:not(:empty),
-.checkbox[x] {
+.checkbox[x],
+.checkbox.checked {
   background-color: #000;
 }
 .text-indent-5 {
