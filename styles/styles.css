@@ -33,7 +33,6 @@
   padding-right: 20px;
 }
 body {
-  font-size: 14px;
   line-height: 150%;
   font-family: Arial, sans-serif;
 }
@@ -75,7 +74,6 @@ li {
   border: 2px solid #fff;
   outline: 2px solid #000;
   font-weight: bold;
-  font-size: 16px;
 }
 .table-,
 .table-4 {
@@ -222,10 +220,11 @@ li {
   text-indent: 5px;
 }
 .ol-numeric {
-  padding-left: 10px;
+  position: relative;
+  left: 35px;
 }
 .ol-numeric ol {
-  padding-left: 10px;
-  margin-left: 10px;
+  position: relative;
+  left: 35px;
 }
 /*# sourceMappingURL=styles.css.map */
