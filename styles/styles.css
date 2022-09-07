@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.mb-4 {
+  margin-bottom: 40px;
+}
+.mb-3 {
+  margin-bottom: 30px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+.p-sm {
+  padding: 5px;
+}
+.p-md {
+  padding: 10px;
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
+  font-size: 14px;
+  line-height: 150%;
+  font-family: Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  font-family: inherit;
+  line-height: 150%;
+}
+.bordered-window {
+  border: 1px solid #000;
+}
+.table-note th,
+.table-note td {
+  vertical-align: top;
+}
+.table-note th {
+  padding-right: 10px;
+}
+.table-note .instruction-name {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 10%;
+}
+.table-note .instruction-info {
+  border-bottom: 1px solid #000;
+  width: 89%;
+  display: inline-block;
+}
+.section-title {
+  background-color: #e5e5e5;
+  border: 2px solid #fff;
+  outline: 2px solid #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+.table-,
+.table-4 {
+  width: 100%;
+  border: 1px solid #000;
+}
+.table- td,
+.table-4 td,
+.table- th,
+.table-4 th {
+  border: 1px solid #000;
+  padding: 5px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.table- tr > *:nth-child(1),
+.table-4 tr > *:nth-child(1) {
+  vertical-align: top;
+}
+.table- tr > *:nth-child(2),
+.table-4 tr > *:nth-child(2) {
+  text-align: left;
+}
+.table- tr > *:nth-child(1),
+.table-4 tr > *:nth-child(1),
+.table- tr > *:nth-child(3),
+.table-4 tr > *:nth-child(3) {
+  width: 5%;
+}
+.table- tr > *:nth-child(2),
+.table-4 tr > *:nth-child(2),
+.table- tr > *:nth-child(4),
+.table-4 tr > *:nth-child(4) {
+  width: 45%;
+}
+.table-.table-2 .checkbox,
+.table-4.table-2 .checkbox,
+.table-.table-3 .checkbox,
+.table-4.table-3 .checkbox,
+.table-.table-5 .checkbox,
+.table-4.table-5 .checkbox {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.table-.table-5 tr > *:nth-child(1),
+.table-4.table-5 tr > *:nth-child(1) {
+  vertical-align: top;
+}
+.table-.table-5 tr > *:nth-child(2),
+.table-4.table-5 tr > *:nth-child(2) {
+  text-align: left;
+}
+.table-.table-5 tr > *:nth-child(1),
+.table-4.table-5 tr > *:nth-child(1),
+.table-.table-5 tr > *:nth-child(3),
+.table-4.table-5 tr > *:nth-child(3),
+.table-.table-5 tr > *:nth-child(4),
+.table-4.table-5 tr > *:nth-child(4) {
+  width: 5%;
+}
+.table-.table-5 tr > *:nth-child(2),
+.table-4.table-5 tr > *:nth-child(2) {
+  width: 45%;
+}
+.table-.table-5 tr > *:nth-child(5),
+.table-4.table-5 tr > *:nth-child(5) {
+  width: 40%;
+}
+.table-.table-3 tr > *:nth-child(1),
+.table-4.table-3 tr > *:nth-child(1) {
+  vertical-align: top;
+}
+.table-.table-3 tr > *:nth-child(2),
+.table-4.table-3 tr > *:nth-child(2) {
+  text-align: left;
+}
+.table-.table-3 tr > *:nth-child(3),
+.table-4.table-3 tr > *:nth-child(3) {
+  vertical-align: bottom;
+}
+.table-.table-3 tr > *:nth-child(1),
+.table-4.table-3 tr > *:nth-child(1) {
+  width: 5%;
+}
+.table-.table-3 tr > *:nth-child(2),
+.table-4.table-3 tr > *:nth-child(2),
+.table-.table-3 tr > *:nth-child(3),
+.table-4.table-3 tr > *:nth-child(3) {
+  width: 45%;
+}
+.table-.table-2 tr > *:nth-child(1),
+.table-4.table-2 tr > *:nth-child(1) {
+  vertical-align: top;
+}
+.table-.table-2 tr > *:nth-child(2),
+.table-4.table-2 tr > *:nth-child(2) {
+  text-align: left;
+}
+.table-.table-2 tr > *:nth-child(1),
+.table-4.table-2 tr > *:nth-child(1) {
+  width: 5%;
+}
+.table-.table-2 tr > *:nth-child(2),
+.table-4.table-2 tr > *:nth-child(2),
+.table-.table-2 tr > *:nth-child(3),
+.table-4.table-2 tr > *:nth-child(3) {
+  width: 95%;
+}
+.table- .input-text,
+.table-4 .input-text {
+  min-width: 60px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+}
+.float-right {
+  float: right;
+}
+.table-sign-wrapper {
+  display: inline-block;
+  min-width: 40%;
+}
+.table-sign {
+  width: 100%;
+}
+.table-sign thead tr td {
+  border-bottom: 1px solid #000;
+}
+.checkbox {
+  outline: 1px solid #000;
+  border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+  display: table;
+  margin: 0 auto;
+}
+.checkbox:not(:empty),
+.checkbox[x] {
+  background-color: #000;
+}
+.text-indent-5 {
+  text-indent: 5px;
+}
+.ol-numeric {
+  padding-left: 10px;
+}
+.ol-numeric ol {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+/*# sourceMappingURL=styles.css.map */
